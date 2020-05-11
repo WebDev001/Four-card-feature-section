@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Four card feature section</title>
+  </head>
+  <body class="bg-gray-100 p-3">
+    <!-- text -->
+    <div class="text-center mt-6 mb-12">
+      <h2 class="text-2xl font-thin text-gray-700 md:text-3xl">
+        Reliable, efficient delivery
+      </h2>
+      <h1 class="text-2xl text-gray-700 font-semibold md:text-3xl">
+        Powered by Technology
+      </h1>
+      <p class="text-gray-500 mt-4 w-11/12 mx-auto md:w-8/12 lg:w-5/12">
+        Our Artifical intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </div>
+    <!-- cards -->
+    <div
+      class="flex flex-col mb-4 md:flex-row md:flex-wrap md:justify-center lg:flex-row lg:flex-wrap lg:justify-center"
+    >
+      <!-- card -->
+      <div
+        class="card card-1 bg-white shadow-lg p-6 rounded border-t-4 border-teal-400 mb-6 flex flex-col transform md:w-2/5 md:m-3 lg:w-1/4 lg:m-3 lg:translate-y-1/2"
+      >
+        <h3 class="text-xl text-gray-700 font-semibold md:text-2xl">
+          Supervisor
+        </h3>
+        <p class="text-gray-500 mt-2">
+          Monitors activity to identify project roadblocks
+        </p>
+        <img
+          src="./images/icon-supervisor.svg"
+          alt="icon-supervisor"
+          class="self-end mt-8 mb-4"
+        />
+      </div>
+      <!-- card -->
+      <div
+        class="card card-2 bg-white shadow-lg p-6 rounded border-t-4 border-red-400 mb-6 flex flex-col md:w-2/5 md:m-3 lg:w-1/4 lg:m-3"
+      >
+        <h3 class="text-xl text-gray-700 font-semibold md:text-2xl">
+          Team Builder
+        </h3>
+        <p class="text-gray-500 mt-2">
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img
+          src="./images/icon-team-builder.svg"
+          alt="icon-team-builder"
+          class="self-end mt-8 mb-4"
+        />
+      </div>
+      <!-- card -->
+      <div
+        class="card card-3 bg-white shadow-lg p-6 rounded border-t-4 border-yellow-400 mb-6 flex flex-col transform md:w-2/5 md:m-3 lg:w-1/4 lg:m-3 lg:translate-y-1/2"
+      >
+        <h3 class="text-xl text-gray-700 font-semibold md:text-2xl">Karma</h3>
+        <p class="text-gray-500 mt-2">
+          Regulary evaluates our talent to ensure quality
+        </p>
+        <img
+          src="./images/icon-karma.svg"
+          alt="icon-karma"
+          class="self-end mt-8 mb-4"
+        />
+      </div>
+      <!-- card -->
+      <div
+        class="card card-4 bg-white shadow-lg p-6 rounded border-t-4 border-blue-400 mb-6 flex flex-col md:w-2/5 md:m-3 lg:w-1/4 lg:m-3"
+      >
+        <h3 class="text-xl text-gray-700 font-semibold md:text-2xl">
+          Calculator
+        </h3>
+        <p class="text-gray-500 mt-2">
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <img
+          src="./images/icon-calculator.svg"
+          alt="icon-calculator"
+          class="self-end mt-8 mb-4"
+        />
+      </div>
+    </div>
+  </body>
+</html>
